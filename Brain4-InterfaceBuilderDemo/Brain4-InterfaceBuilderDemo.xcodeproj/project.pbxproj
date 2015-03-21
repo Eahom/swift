@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7280791A5EF3A800707A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7280781A5EF3A800707A39 /* AppDelegate.swift */; };
+		DF72807B1A5EF3A800707A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72807A1A5EF3A800707A39 /* ViewController.swift */; };
+		DF72807E1A5EF3A800707A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF72807C1A5EF3A800707A39 /* Main.storyboard */; };
+		DF7280801A5EF3A800707A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF72807F1A5EF3A800707A39 /* Images.xcassets */; };
+		DF7280831A5EF3A800707A39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7280811A5EF3A800707A39 /* LaunchScreen.xib */; };
+		DF72808F1A5EF3A800707A39 /* Brain4_InterfaceBuilderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72808E1A5EF3A800707A39 /* Brain4_InterfaceBuilderDemoTests.swift */; };
+		DF7280A21A5EF4CB00707A39 /* CustomKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7280A11A5EF4CB00707A39 /* CustomKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF7280A81A5EF4CB00707A39 /* CustomKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72809D1A5EF4CB00707A39 /* CustomKit.framework */; };
+		DF7280B11A5EF4CB00707A39 /* CustomKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7280B01A5EF4CB00707A39 /* CustomKitTests.swift */; };
+		DF7280B41A5EF4CB00707A39 /* CustomKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72809D1A5EF4CB00707A39 /* CustomKit.framework */; };
+		DF7280B51A5EF4CB00707A39 /* CustomKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF72809D1A5EF4CB00707A39 /* CustomKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF7280BE1A5EF55300707A39 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7280BD1A5EF55300707A39 /* DemoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7280891A5EF3A800707A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF72806B1A5EF3A800707A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7280721A5EF3A800707A39;
+			remoteInfo = "Brain4-InterfaceBuilderDemo";
+		};
+		DF7280A91A5EF4CB00707A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF72806B1A5EF3A800707A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF72809C1A5EF4CB00707A39;
+			remoteInfo = CustomKit;
+		};
+		DF7280AB1A5EF4CB00707A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF72806B1A5EF3A800707A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7280721A5EF3A800707A39;
+			remoteInfo = "Brain4-InterfaceBuilderDemo";
+		};
+		DF7280B21A5EF4CB00707A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF72806B1A5EF3A800707A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF72809C1A5EF4CB00707A39;
+			remoteInfo = CustomKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF7280B91A5EF4CB00707A39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DF7280B51A5EF4CB00707A39 /* CustomKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF7280731A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain4-InterfaceBuilderDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7280771A5EF3A800707A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7280781A5EF3A800707A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF72807A1A5EF3A800707A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF72807D1A5EF3A800707A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF72807F1A5EF3A800707A39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF7280821A5EF3A800707A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF7280881A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brain4-InterfaceBuilderDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72808D1A5EF3A800707A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF72808E1A5EF3A800707A39 /* Brain4_InterfaceBuilderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain4_InterfaceBuilderDemoTests.swift; sourceTree = "<group>"; };
+		DF72809D1A5EF4CB00707A39 /* CustomKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7280A01A5EF4CB00707A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7280A11A5EF4CB00707A39 /* CustomKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKit.h; sourceTree = "<group>"; };
+		DF7280A71A5EF4CB00707A39 /* CustomKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7280AF1A5EF4CB00707A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7280B01A5EF4CB00707A39 /* CustomKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKitTests.swift; sourceTree = "<group>"; };
+		DF7280BD1A5EF55300707A39 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7280701A5EF3A800707A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7280B41A5EF4CB00707A39 /* CustomKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280851A5EF3A800707A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280991A5EF4CB00707A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280A41A5EF4CB00707A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7280A81A5EF4CB00707A39 /* CustomKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF72806A1A5EF3A800707A39 = {
+			isa = PBXGroup;
+			children = (
+				DF7280751A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo */,
+				DF72808B1A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests */,
+				DF72809E1A5EF4CB00707A39 /* CustomKit */,
+				DF7280AD1A5EF4CB00707A39 /* CustomKitTests */,
+				DF7280741A5EF3A800707A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7280741A5EF3A800707A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280731A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo.app */,
+				DF7280881A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests.xctest */,
+				DF72809D1A5EF4CB00707A39 /* CustomKit.framework */,
+				DF7280A71A5EF4CB00707A39 /* CustomKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7280751A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280781A5EF3A800707A39 /* AppDelegate.swift */,
+				DF72807A1A5EF3A800707A39 /* ViewController.swift */,
+				DF72807C1A5EF3A800707A39 /* Main.storyboard */,
+				DF72807F1A5EF3A800707A39 /* Images.xcassets */,
+				DF7280811A5EF3A800707A39 /* LaunchScreen.xib */,
+				DF7280761A5EF3A800707A39 /* Supporting Files */,
+			);
+			path = "Brain4-InterfaceBuilderDemo";
+			sourceTree = "<group>";
+		};
+		DF7280761A5EF3A800707A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280771A5EF3A800707A39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF72808B1A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF72808E1A5EF3A800707A39 /* Brain4_InterfaceBuilderDemoTests.swift */,
+				DF72808C1A5EF3A800707A39 /* Supporting Files */,
+			);
+			path = "Brain4-InterfaceBuilderDemoTests";
+			sourceTree = "<group>";
+		};
+		DF72808C1A5EF3A800707A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF72808D1A5EF3A800707A39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF72809E1A5EF4CB00707A39 /* CustomKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280A11A5EF4CB00707A39 /* CustomKit.h */,
+				DF72809F1A5EF4CB00707A39 /* Supporting Files */,
+				DF7280BD1A5EF55300707A39 /* DemoView.swift */,
+			);
+			path = CustomKit;
+			sourceTree = "<group>";
+		};
+		DF72809F1A5EF4CB00707A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280A01A5EF4CB00707A39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF7280AD1A5EF4CB00707A39 /* CustomKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280B01A5EF4CB00707A39 /* CustomKitTests.swift */,
+				DF7280AE1A5EF4CB00707A39 /* Supporting Files */,
+			);
+			path = CustomKitTests;
+			sourceTree = "<group>";
+		};
+		DF7280AE1A5EF4CB00707A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7280AF1A5EF4CB00707A39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF72809A1A5EF4CB00707A39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7280A21A5EF4CB00707A39 /* CustomKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF7280721A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7280921A5EF3A800707A39 /* Build configuration list for PBXNativeTarget "Brain4-InterfaceBuilderDemo" */;
+			buildPhases = (
+				DF72806F1A5EF3A800707A39 /* Sources */,
+				DF7280701A5EF3A800707A39 /* Frameworks */,
+				DF7280711A5EF3A800707A39 /* Resources */,
+				DF7280B91A5EF4CB00707A39 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7280B31A5EF4CB00707A39 /* PBXTargetDependency */,
+			);
+			name = "Brain4-InterfaceBuilderDemo";
+			productName = "Brain4-InterfaceBuilderDemo";
+			productReference = DF7280731A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7280871A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7280951A5EF3A800707A39 /* Build configuration list for PBXNativeTarget "Brain4-InterfaceBuilderDemoTests" */;
+			buildPhases = (
+				DF7280841A5EF3A800707A39 /* Sources */,
+				DF7280851A5EF3A800707A39 /* Frameworks */,
+				DF7280861A5EF3A800707A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF72808A1A5EF3A800707A39 /* PBXTargetDependency */,
+			);
+			name = "Brain4-InterfaceBuilderDemoTests";
+			productName = "Brain4-InterfaceBuilderDemoTests";
+			productReference = DF7280881A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF72809C1A5EF4CB00707A39 /* CustomKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7280B61A5EF4CB00707A39 /* Build configuration list for PBXNativeTarget "CustomKit" */;
+			buildPhases = (
+				DF7280981A5EF4CB00707A39 /* Sources */,
+				DF7280991A5EF4CB00707A39 /* Frameworks */,
+				DF72809A1A5EF4CB00707A39 /* Headers */,
+				DF72809B1A5EF4CB00707A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKit;
+			productName = CustomKit;
+			productReference = DF72809D1A5EF4CB00707A39 /* CustomKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF7280A61A5EF4CB00707A39 /* CustomKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7280BA1A5EF4CB00707A39 /* Build configuration list for PBXNativeTarget "CustomKitTests" */;
+			buildPhases = (
+				DF7280A31A5EF4CB00707A39 /* Sources */,
+				DF7280A41A5EF4CB00707A39 /* Frameworks */,
+				DF7280A51A5EF4CB00707A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7280AA1A5EF4CB00707A39 /* PBXTargetDependency */,
+				DF7280AC1A5EF4CB00707A39 /* PBXTargetDependency */,
+			);
+			name = CustomKitTests;
+			productName = CustomKitTests;
+			productReference = DF7280A71A5EF4CB00707A39 /* CustomKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF72806B1A5EF3A800707A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = app;
+				TargetAttributes = {
+					DF7280721A5EF3A800707A39 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DF7280871A5EF3A800707A39 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DF7280721A5EF3A800707A39;
+					};
+					DF72809C1A5EF4CB00707A39 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DF7280A61A5EF4CB00707A39 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DF7280721A5EF3A800707A39;
+					};
+				};
+			};
+			buildConfigurationList = DF72806E1A5EF3A800707A39 /* Build configuration list for PBXProject "Brain4-InterfaceBuilderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF72806A1A5EF3A800707A39;
+			productRefGroup = DF7280741A5EF3A800707A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7280721A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo */,
+				DF7280871A5EF3A800707A39 /* Brain4-InterfaceBuilderDemoTests */,
+				DF72809C1A5EF4CB00707A39 /* CustomKit */,
+				DF7280A61A5EF4CB00707A39 /* CustomKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7280711A5EF3A800707A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72807E1A5EF3A800707A39 /* Main.storyboard in Resources */,
+				DF7280831A5EF3A800707A39 /* LaunchScreen.xib in Resources */,
+				DF7280801A5EF3A800707A39 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280861A5EF3A800707A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF72809B1A5EF4CB00707A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280A51A5EF4CB00707A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF72806F1A5EF3A800707A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72807B1A5EF3A800707A39 /* ViewController.swift in Sources */,
+				DF7280791A5EF3A800707A39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280841A5EF3A800707A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF72808F1A5EF3A800707A39 /* Brain4_InterfaceBuilderDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280981A5EF4CB00707A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7280BE1A5EF55300707A39 /* DemoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7280A31A5EF4CB00707A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7280B11A5EF4CB00707A39 /* CustomKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF72808A1A5EF3A800707A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7280721A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo */;
+			targetProxy = DF7280891A5EF3A800707A39 /* PBXContainerItemProxy */;
+		};
+		DF7280AA1A5EF4CB00707A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF72809C1A5EF4CB00707A39 /* CustomKit */;
+			targetProxy = DF7280A91A5EF4CB00707A39 /* PBXContainerItemProxy */;
+		};
+		DF7280AC1A5EF4CB00707A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7280721A5EF3A800707A39 /* Brain4-InterfaceBuilderDemo */;
+			targetProxy = DF7280AB1A5EF4CB00707A39 /* PBXContainerItemProxy */;
+		};
+		DF7280B31A5EF4CB00707A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF72809C1A5EF4CB00707A39 /* CustomKit */;
+			targetProxy = DF7280B21A5EF4CB00707A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF72807C1A5EF3A800707A39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF72807D1A5EF3A800707A39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7280811A5EF3A800707A39 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7280821A5EF3A800707A39 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7280901A5EF3A800707A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7280911A5EF3A800707A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7280931A5EF3A800707A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brain4-InterfaceBuilderDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF7280941A5EF3A800707A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brain4-InterfaceBuilderDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF7280961A5EF3A800707A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brain4-InterfaceBuilderDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain4-InterfaceBuilderDemo.app/Brain4-InterfaceBuilderDemo";
+			};
+			name = Debug;
+		};
+		DF7280971A5EF3A800707A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brain4-InterfaceBuilderDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain4-InterfaceBuilderDemo.app/Brain4-InterfaceBuilderDemo";
+			};
+			name = Release;
+		};
+		DF7280B71A5EF4CB00707A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF7280B81A5EF4CB00707A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CustomKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF7280BB1A5EF4CB00707A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain4-InterfaceBuilderDemo.app/Brain4-InterfaceBuilderDemo";
+			};
+			name = Debug;
+		};
+		DF7280BC1A5EF4CB00707A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brain4-InterfaceBuilderDemo.app/Brain4-InterfaceBuilderDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF72806E1A5EF3A800707A39 /* Build configuration list for PBXProject "Brain4-InterfaceBuilderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7280901A5EF3A800707A39 /* Debug */,
+				DF7280911A5EF3A800707A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7280921A5EF3A800707A39 /* Build configuration list for PBXNativeTarget "Brain4-InterfaceBuilderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7280931A5EF3A800707A39 /* Debug */,
+				DF7280941A5EF3A800707A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7280951A5EF3A800707A39 /* Build configuration list for PBXNativeTarget "Brain4-InterfaceBuilderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7280961A5EF3A800707A39 /* Debug */,
+				DF7280971A5EF3A800707A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7280B61A5EF4CB00707A39 /* Build configuration list for PBXNativeTarget "CustomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7280B71A5EF4CB00707A39 /* Debug */,
+				DF7280B81A5EF4CB00707A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7280BA1A5EF4CB00707A39 /* Build configuration list for PBXNativeTarget "CustomKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7280BB1A5EF4CB00707A39 /* Debug */,
+				DF7280BC1A5EF4CB00707A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF72806B1A5EF3A800707A39 /* Project object */;
+}
